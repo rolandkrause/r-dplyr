@@ -1,8 +1,9 @@
 ---
-title: "My answers"
+title: "Data wrangling"
 author: "My name"
 date: "2023-10-11"
 output: html_document
+editor: source
 ---
 
 
@@ -97,35 +98,5 @@ Divide all entries in the REI questionnaire by 5, the maximal value.
 ```{r}
 # Write your answer here
 ```
-
-
-##### Compute the average and the standard deviation for all moral dilemma columns. 
-The resulting column names must contain the names of "avg" (for the average) and "sd" for the standard deviation. 
-
-```{r}
-# Write your answer here
-```
-
-
-### Grouping
-
-#### Sort by groups
-
-Find the number of subjects by age, gender and condition, e.g. how many 20 years of age females are in the `stress` group. 
-Sort the resulting tibble such that the condition that contains the most populous group is sorted first (i.e. `stress` or `control` appear together). 
-
-```{r}
-# Write your answer here
-```
-
-
-##### Find the moral dilemma with the highest average score across all participants.
-
-The result must be a tibble containing the dilemma and the average such that the dilemma with the highest average in the first row. 
-
-```{r}
-# Write your answer here
-```
-
 
 
