@@ -61,13 +61,6 @@ Select `gender`, `subject`, `age` and referring to the `STAI` questionnaire.
 
 ### Exercise 2
 
-#### Abbreviate the gender column such that only the first character remains
-
-```{r}
-# Write your answer here
-```
-
-
 #### Create a new column called `STAI_pre_category` 
 
 It should contain "low", "normal" and "high" entries depending on the `STAI_pre` values:
