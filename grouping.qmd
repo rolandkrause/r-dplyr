@@ -2,9 +2,13 @@
 title: "Grouping and summarizing"
 format: html
 editor: source
-date: "2023-10-11"
+date: "2024-10-14"
 output: html_document
 ---
+
+
+### Identify the duplicated row
+Identify the duplicated subject.
 
 ### Compute basic statistics for all moral dilemma columns. 
 Compute the mean, the median, the standard deviation as well as min and max values.
@@ -29,7 +33,6 @@ Sort the resulting tibble such that the condition that contains the most populou
 ```
 
 Ensure that the resulting tibble does not contain groups.
-
 
 
 

@@ -1,7 +1,7 @@
 ---
 title: "Data wrangling"
 author: "My name"
-date: "2023-10-11"
+date: "2024-10-14"
 output: html_document
 editor: source
 ---
@@ -11,12 +11,12 @@ editor: source
 
 ## Part one - Wrangling
 
-This short tutorial will allow you to explore `dplyr` functionality based on the previous lecture. Every question can be answered with a combination of `|>` pipes. You should refrain from using temporary variables and statements outside of the range of the tidyverse.  
+This tutorial will allow you to explore `dplyr` functionality based on the previous lecture. Every question can be answered with a combination of `|>` pipes. You should refrain from using temporary variables and statements outside of the range of the tidyverse.  
 
 The first part does not require joins or pivots.
 
 ### Import the [data from the website](https://biostat2.uni.lu/practicals/data/judgments.tsv). 
-Assign to the name `judgments`
+Assign to the name `judgments` and correct the column types where needed.
 
 ```{r}
 # Write your answer here
@@ -58,6 +58,20 @@ Select `gender`, `subject`, `age` and referring to the `STAI` questionnaire.
 ```{r}
 # Write your answer here
 ```
+
+#### Check if the data set contains duplicated rows
+
+::: {.callout-tip}
+### Tip
+Compare the number of rows in the raw input table with the number of rows 
+in a de-duplicated table containing unique rows only. 
+:::
+
+```{r}
+# Your answer in code here
+```
+
+
 
 ### Exercise 2
 
